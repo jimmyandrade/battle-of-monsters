@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card styles Root component should match snapshot 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (prefers-reduced-motion:no-preference) {
+  .c0 {
+    -webkit-transition-duration: var(--micro-animation-duration);
+    transition-duration: var(--micro-animation-duration);
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-property: border-color,box-shadow;
+    transition-property: border-color,box-shadow;
+  }
+}
+
+<div
+  class="c0"
+/>
+`;

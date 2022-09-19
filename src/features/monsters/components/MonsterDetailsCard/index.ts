@@ -1,0 +1,1 @@
+export { MonsterDetailsCard } from './MonsterDetailsCard'

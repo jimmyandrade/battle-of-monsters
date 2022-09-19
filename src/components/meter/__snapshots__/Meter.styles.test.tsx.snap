@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meter styled Root component should match snapshot 1`] = `
+.c0 {
+  min-width: var(--meter-base-width);
+  width: 100%;
+}
+
+.c0,
+.c0::-webkit-meter-bar {
+  background-color: var(--meter-background-color);
+  border-radius: var(--meter-border-radius);
+  border-width: 0;
+  height: var(--meter-base-height);
+  max-width: var(--meter-base-width);
+  min-height: var(--meter-base-height);
+}
+
+.c0::-webkit-meter-optimum-value {
+  background-color: #00FF00;
+}
+
+@media (prefers-reduced-transparency:no-preference) {
+  .c0::-webkit-meter-bar,
+  .c0::-webkit-meter-optimum-value {
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: var(--micro-animation-duration);
+    -webkit-transition-property: width;
+  }
+}
+
+<meter
+  class="c0"
+/>
+`;

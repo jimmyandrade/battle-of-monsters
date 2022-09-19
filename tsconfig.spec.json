@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "types": ["@testing-library/jest-dom", "@testing-library/react", "jest", "node"]
+  },
+  "include": ["src/**/*.test.ts", "src/**/*.test.tsx"]
+}

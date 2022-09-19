@@ -1,0 +1,10 @@
+{
+  "short_name": "Battle of Monsters",
+  "name": "Battle of Monsters",
+  "start_url": "/?source=pwa",
+  "background_color": "#FAFAFA",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#10782E",
+  "description": "A Battle of Monsters front-end experiment"
+}

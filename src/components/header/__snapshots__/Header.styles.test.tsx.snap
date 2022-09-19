@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header styles Root component should match snapshot 1`] = `
+.c0 {
+  padding-block-end: 35px;
+  padding-block-start: 69px;
+}
+
+<div>
+  <header
+    class="c0"
+  />
+</div>
+`;

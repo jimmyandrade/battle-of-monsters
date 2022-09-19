@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert styles Root component should match snapshot 1`] = `
+.c0 {
+  background-color: #E1F8FF;
+  border: 1px solid var(--active-border-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  font-size: 22px;
+  min-height: 61px;
+  padding: 17px 28px 18px 28px;
+}
+
+<div
+  class="c0"
+/>
+`;

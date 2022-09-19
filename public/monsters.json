@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dead-unicorn",
+    "name": "Dead Unicorn",
+    "hp": 140,
+    "attack": 189,
+    "defense": 96,
+    "speed": 235,
+    "imageUrl": "./src/images/dead-unicorn.png"
+  },
+  {
+    "id": "old-shark",
+    "name": "Old Shark",
+    "hp": 200,
+    "attack": 200,
+    "defense": 200,
+    "speed": 200,
+    "imageUrl": "./src/images/old-shark.png"
+  },
+  {
+    "id": "red-dragon",
+    "name": "Red Dragon",
+    "hp": 300,
+    "attack": 300,
+    "defense": 300,
+    "speed": 300,
+    "imageUrl": "./src/images/red-dragon.png"
+  },
+  {
+    "id": "robot-bear",
+    "name": "Robot Bear",
+    "hp": 200,
+    "attack": 200,
+    "defense": 200,
+    "speed": 200,
+    "imageUrl": "./src/images/robot-bear.png"
+  },
+  {
+    "id": "angry-snake",
+    "name": "Angry Snake",
+    "hp": 264,
+    "attack": 176,
+    "defense": 235,
+    "speed": 40,
+    "imageUrl": "./src/images/angry-snake.png"
+  }
+]

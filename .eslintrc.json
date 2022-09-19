@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript"
+  ],
+  "overrides": [
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": [
+      "./tsconfig.json"
+    ],
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "max-len": ["error", { "code": 80 }],
+    "react/no-unused-prop-types": "error",
+    "react/react-in-jsx-scope": "off"
+  }
+}

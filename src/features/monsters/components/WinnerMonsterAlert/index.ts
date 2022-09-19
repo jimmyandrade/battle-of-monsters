@@ -1,0 +1,1 @@
+export { WinnerMonsterAlert } from './WinnerMonsterAlert'

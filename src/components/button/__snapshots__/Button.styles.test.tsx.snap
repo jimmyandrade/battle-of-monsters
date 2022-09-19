@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button styles Root component should match snapshot 1`] = `
+.c0 {
+  background-color: var(--primary-color);
+  border: 0 none transparent;
+  box-shadow: 0 4px 4px 0 #00000040;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: inherit;
+  min-height: 45px;
+  min-width: 150px;
+  padding-block: 12px;
+  padding-inline: 30px;
+}
+
+.c0:disabled {
+  background-color: #799A82;
+  cursor: not-allowed;
+}
+
+.c0:active:not(:disabled) {
+  box-shadow: none;
+}
+
+@media (prefers-reduced-motion:no-preference) {
+  .c0 {
+    -webkit-transition-duration: var(--micro-animation-duration);
+    transition-duration: var(--micro-animation-duration);
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+}
+
+<button
+  class="c0"
+/>
+`;

@@ -9,11 +9,24 @@
     "standard-with-typescript"
   ],
   "overrides": [
+    {
+      "files": ["**/*.d.ts"],
+      "rules": {
+        "@typescript-eslint/restrict-template-expressions": "off"
+      }
+    },
+    {
+      "files": ["**/vite.config.ts"],
+      "rules": {
+        "max-len": ["error", 363]
+      }
+    }
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
     "project": [
-      "./tsconfig.json"
+      "./tsconfig.app.json",
+      "./tsconfig.node.json"
     ],
     "sourceType": "module"
   },
@@ -24,5 +37,10 @@
     "max-len": ["error", { "code": 80 }],
     "react/no-unused-prop-types": "error",
     "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

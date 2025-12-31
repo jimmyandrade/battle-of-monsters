@@ -45,7 +45,7 @@
     "jest-environment-jsdom": "29.2.2",
     "jest-styled-components": "7.1.1",
     "ts-jest": "29.0.3",
-    "ts-node": "10.9.1",
+    "ts-node": "10.9.2",
     "typescript": "4.8.4",
     "vite": "3.2.2"
   }
